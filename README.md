@@ -5,8 +5,13 @@ YouTube demo: https://youtu.be/JtmQEJh5yks
 
 Instructions:
 1. Clone this repository locally.
+- git clone https://github.com/eyuan1/DS-2018-FinalProject.git
 2. Run Jupyter on the Followers.py.ipynb file and run the program in your web browser (see video for help)
+- jupyter notebook --ip student00.cse.nd.edu --port 9100 --no-browser
+
 
 Alternatively,
 1. Clone this repository locally.
-2. Run the dsFinal.py file (python dsFinal.py), which will not contain the HTML interaction but will still return names, screen names, and values.
+- git clone https://github.com/eyuan1/DS-2018-FinalProject.git
+2. Run the dsFinal.py file, which will not contain the HTML interaction but will still return names, screen names, and values.
+- python dsFinal.py
