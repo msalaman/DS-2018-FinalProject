@@ -23,7 +23,7 @@ class twitUser:
         self.profileImageURL = profileImageURL
 
 def calculateScore(twitUser, RTs, Hashtag55):
-    score = twitUser.followerCount / 3 + 200 / twitUser.degrees + (50 * (getHashCount(twitUser, Hashtag55, RTs)))
+    score = twitUser.followerCount / 10 + 150 / twitUser.degrees + (100 * (getHashCount(twitUser, Hashtag55, RTs)))
     return score
 
 class node:
@@ -173,4 +173,4 @@ if __name__ == '__main__':
 
     # Put in token, token_key, con_secret, con_secret_key
     t = Twitter(auth=OAuth(ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET))
-    getFollowers("dijkstra_edsger", 1, 2000, True, Hashtag="CH")
+    getFollowers(TWITHANDLE, DEGREES, MAXFOLLOWERS, True, Hashtag="gbr")
