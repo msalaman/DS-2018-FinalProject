@@ -102,7 +102,7 @@ class maxHeap:
         sz = self.size()
         while(i < count and i < sz):
             node = self.pop()
-            print("{} {} {}".format(node.v, node.t.name, node.t.followerCount))#, showNode.v)
+            print("Score: {} {} {} {}".format(node.v, node.t.name, node.t.screenName, node.t.followerCount))#, showNode.v)
             i = i + 1
 
 
